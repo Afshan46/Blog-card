@@ -84,53 +84,38 @@ p{
     font-weight: bold;
     
 }
-@media only screen and (max-width: 701px) {
+@media only screen and (max-width: 768px) {
     .blog-card {
-        width: 80%; 
+        width: 100%;
+        height: auto;
+        margin-top: 15rem;
     }
 
     img {
-        width: 85%; 
-        height: auto; 
-    }
-    p{
-        width: 22.13rem;
-    }
-}
-@media only screen and (max-width: 586px) {
-    .blog-card {
-        width: 60%; 
-        margin-top:2rem;
+        width: 90%;
+        height: auto;
     }
 
-    img {
-        width: 80%; 
-        height: auto; 
-    }
-    p{
-        width: 18.45rem;
-    }
-}
-
-
-@media only screen and (max-width: 476px) {
-    .blog-card{
-        width: 80%;
-        margin-top: 5rem;
-    }
     h2 {
-        font-size: 1.0rem; 
+        font-size: 1.25rem;
     }
-    img {
-        width: 85%; 
-        height: auto; 
-    }
-    p{
-        width: 18rem;
+
+    p {
+        width: 100%;
     }
 }
 
-    p{
-        width: 18rem;
+@media only screen and (max-width: 576px) {
+    .blog-card {
+        width: 90%;
+        margin-top:10;
+    }
+
+    h2 {
+        font-size: 1.10rem;
+    }
+
+    .date {
+        font-size: 0.55rem;
     }
 }
