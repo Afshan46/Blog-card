@@ -84,23 +84,22 @@ p{
     font-weight: bold;
     
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 701px) {
     .blog-card {
-        width: 60%; 
-        margin-top:5rem;
+        width: 80%; 
     }
 
     img {
-        width: 90%; 
+        width: 85%; 
         height: auto; 
     }
     p{
-        width: 20.13rem;
+        width: 25.13rem;
     }
 }
-@media only screen and (max-width: 698px) {
+@media only screen and (max-width: 586px) {
     .blog-card {
-        width: 55%; 
+        width: 60%; 
         margin-top:2rem;
     }
 
@@ -109,18 +108,28 @@ p{
         height: auto; 
     }
     p{
-        width: 14.13rem;
+        width: 15.13rem;
     }
 }
 
-@media only screen and (max-width: 480px) {
+
+@media only screen and (max-width: 476px) {
+    .blog-card{
+        width: 80%;
+        margin-top: 3rem;
+    }
     h2 {
         font-size: 1.0rem; 
     }
     img {
-        width: 82%; 
+        width: 85%; 
         height: auto; 
     }
+    p{
+        width: 20rem;
+    }
+}
+
     p{
         width: 13rem;
     }
